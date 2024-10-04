@@ -13,7 +13,7 @@ The following inputs are available for configuring the action:
 | Name              | Description                                                        | Required | Default         |
 |-------------------|--------------------------------------------------------------------|----------|-----------------|
 | `HEROKU_APP_NAME` | The name of your Heroku app where the Docker container will be deployed. | `true`   | `myapp-demo`    |
-| `HEROKU_API_KEY`  | The API key used to authenticate with Heroku.                      | `true`   | N/A             |
+| `HEROKU_API_KEY`  | The API key used to authenticate with Heroku.                      | `true`   | `N/A`             |
 | `DOCKERFILE_NAME` | The path to the Dockerfile used for building the container.         | `false`  | `./Dockerfile`  |
 
 ## Outputs
