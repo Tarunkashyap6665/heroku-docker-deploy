@@ -28,6 +28,7 @@ runs:
     steps:
         - name: Install Heroku Cli
           run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+          shell: bash
         - name: Check HEROKU_APP_NAME Exists
           id: checkHerokuApp
           run: |
